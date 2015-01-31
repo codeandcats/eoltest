@@ -1,0 +1,93 @@
+# Set the default behavior, in case people don't have core.autocrlf set.
+# From GitHub regarding next line: "Git will handle the files in whatever way it thinks is best. This is a good default option."
+*                    text=auto
+
+# eol=crlf will cause files to always have crlf on checkout
+
+*.asax               text eol=crlf
+*.ascx               text eol=crlf
+*.ashx               text eol=crlf
+*.aspx               text eol=crlf
+*.bat                text eol=crlf
+*.cache              binary
+*.chm                binary
+*.cmd                text eol=crlf
+*.coffee             text eol=crlf
+*.config             text eol=crlf
+*.cs                 text eol=crlf diff=csharp
+*.cshtml             text eol=crlf
+*.csproj             text eol=crlf
+*.css                text eol=crlf
+*.dll                binary
+*.doc	             diff=astextplain
+*.DOC	             diff=astextplain
+*.docx               diff=astextplain
+*.DOCX               diff=astextplain
+*.dot                diff=astextplain
+*.DOT                diff=astextplain
+*.dbproj             text eol=crlf
+*.eot                binary
+*.exe                binary
+*.fsproj             text eol=crlf
+*.gif                binary
+*.gitignore          text eol=crlf
+*.h                  text eol=crlf
+*.htm                text eol=crlf
+*.html               text eol=crlf
+*.ico                binary
+*.ini                text eol=crlf
+*.jpeg               binary
+*.jpg                binary
+*.js                 text eol=crlf
+*.json               text eol=crlf
+*.less               text eol=crlf
+*.map                text eol=crlf
+*.markdown           text eol=crlf
+*.md                 text eol=crlf
+*.msbuild            text eol=crlf
+*.nupkg              binary
+*.nuspec             text eol=crlf
+*.otf                binary
+*.pdb                binary
+*.pdf                diff=astextplain
+*.PDF	             diff=astextplain
+*.png                binary
+*.ps1                text eol=crlf
+*.psm1               text eol=crlf
+*.rb                 text eol=crlf
+*.resx               text 
+*.rtf	             diff=astextplain
+*.RTF	             diff=astextplain
+*.ruleset            text
+*.sass               text eol=crlf
+*.scss               text eol=crlf
+*.sln                text eol=crlf
+*.so                 binary
+*.stylecop           text
+*.suo                binary
+*.svc                text eol=crlf
+*.svcinfo            text eol=crlf
+*.svcmap             text eol=crlf
+*.svg                text eol=crlf
+*.swf                binary
+*.targets            text eol=crlf
+*.tp                 text eol=crlf
+*.transform          text eol=crlf
+*.ts                 text eol=crlf
+*.tt                 text eol=crlf
+*.ttf                binary
+*.txt                text eol=crlf
+*.user               text eol=crlf
+*.vb                 text eol=crlf
+*.vbhtml             text eol=crlf
+*.vbproj             text eol=crlf
+*.woff               text eol=crlf
+*.wsdl               text eol=crlf
+*.xdt                text eol=crlf
+*.xaml               text eol=crlf
+*.xml                text eol=crlf
+*.xsd                text eol=crlf
+*.xslt               text eol=crlf
+*.xunit              text eol=crlf
+*.yardopts           text eol=crlf
+*.yml                text eol=crlf
